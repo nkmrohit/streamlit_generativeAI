@@ -19,7 +19,7 @@ import pathlib
 import streamlit as st
 from azure.storage.blob import BlobServiceClient
 
-os.environ["OPENAI_API_KEY"]='sk-nek4QK4Pqp5GHL7HQ5Lk2VdKXT3BlbkFJsIx9wygeuvD8sUmliAVX'
+os.environ["OPENAI_API_KEY"]='sk-'
 def celebrity_search(query):
     # Enable to save to disk & reuse the model (for repeated queries on the same data)
     PERSIST = False
